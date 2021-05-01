@@ -1,6 +1,7 @@
 package ai.siddha.panchang.dto;
 
 import lombok.AllArgsConstructor;
+import lombok.ToString;
 
 /**
  * Represents the position of a star/graha
@@ -16,6 +17,7 @@ public class Position {
     private int degree;
     private int minutes;
     private int seconds;
+    private String value;  // 29°59'59''
 
     public Position(int degree){
         this.degree = degree;
@@ -27,5 +29,19 @@ public class Position {
 
     public long getSeconds(){
         return this.degree*60 + this.minutes*60 + this.seconds;
+    }
+
+    public Position(String val){
+        String[] vals = val.split(",");
+        this.degree = Integer.parseInt(vals[0]);
+        this.minutes = Integer.parseInt(vals[1]);
+        this.seconds = Integer.parseInt(vals[2]);
+        this.value = this.degree + "°" +
+                this.minutes + "'" +
+                this.seconds + "''";
+    }
+
+    public String toString(){
+        return this.value;
     }
 }

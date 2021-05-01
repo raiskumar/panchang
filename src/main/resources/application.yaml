@@ -1,0 +1,9 @@
+logging:
+  config: classpath:log4j2.xml
+  level:
+    root: warn
+    ai.siddha.panchang: debug
+
+rasis:
+  details:
+    Aries: Mesha,Ar

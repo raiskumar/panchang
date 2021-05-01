@@ -24,6 +24,10 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok:1.18.16'
 	implementation 'com.fasterxml.jackson.core:jackson-core:2.12.2'
 	implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.2'
+	//implementation 'com.fasterxml.jackson.core:jackson-dataformat-yaml:2.12.2'  // for parsing yaml
+	implementation 'com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.12.2'
+	compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.1'
+	compile 'org.yaml:snakeyaml:1.21'
 
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
