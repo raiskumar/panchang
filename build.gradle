@@ -29,6 +29,8 @@ dependencies {
 	compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.1'
 	compile 'org.yaml:snakeyaml:1.21'
 
+	compile "com.rivescript:rivescript-core:0.11.0"
+
 	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.3.1'
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.3.1'
 }
