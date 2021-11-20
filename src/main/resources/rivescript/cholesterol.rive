@@ -1,0 +1,12 @@
+! version = 2.0
+
++ (high cholesterol|cholesterol)
+- High cholesterol is considered as silent killer which builds up without showing any telltale sign.
+^ High cholesterol can be caused by eating fatty food, not exercising enough, being overweight, smoking and drinking alcohol.
+^ It can lead to blockages in blood vessel, stokes and heart attack.
+^ High cholesterol level in blood make the blood flow thick and affect the normal flow of blood in the nerves and cause tingling.
+^ cholesterol are produced in liver.
+
++ (high cholesterol|cholesterol) symptoms
+^ A warning sign of high cholesterol can be painful fingers and toes. It is thought that pain is caused by accumulation of cholesterol in the vessel of the legs and hands.
+^ Another symptom is tingling sensation in the toes and fingers.
